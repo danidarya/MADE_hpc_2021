@@ -144,7 +144,7 @@ double CalcMatMulTime_kij_my_optimisation(double * A, double * B, double * C, si
     gettimeofday(&start, NULL);
     
     for (k = 0; k < N; k++){
-    	dummy_3 = k * N ;
+    	dummy_3 = k * N;
         for(i = 0; i < N; i++)
         {
             dummy = i * N;
