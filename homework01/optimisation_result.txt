@@ -1,0 +1,34 @@
+runtime 0.828986 seconds
+runtime 0.830610 seconds
+runtime 0.827722 seconds
+runtime 0.865995 seconds
+average runtime ijk 0.837018 seconds
+---------------------------------
+runtime 0.856740 seconds
+runtime 0.869515 seconds
+runtime 0.898225 seconds
+runtime 0.874582 seconds
+runtime 0.861141 seconds
+average runtime jik 0.872041 seconds
+---------------------------------
+runtime 0.452310 seconds
+runtime 0.457562 seconds
+runtime 0.452130 seconds
+runtime 0.454467 seconds
+runtime 0.453429 seconds
+average runtime kij 0.453980 seconds
+---------------------------------
+runtime 0.433072 seconds
+runtime 0.415281 seconds
+runtime 0.406477 seconds
+runtime 0.405875 seconds
+runtime 0.405781 seconds
+average runtime kij opt 0.413297 seconds
+---------------------------------
+runtime 0.356997 seconds
+runtime 0.357568 seconds
+runtime 0.355970 seconds
+runtime 0.356823 seconds
+runtime 0.360041 seconds
+average runtime kij my optimisation 0.357480 seconds
+---------------------------------
