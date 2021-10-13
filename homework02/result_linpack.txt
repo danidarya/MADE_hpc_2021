@@ -1,0 +1,53 @@
+This is a SAMPLE run script for running a shared-memory version of
+Intel(R) Distribution for LINPACK* Benchmark. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+*Other names and brands may be claimed as the property of others.
+./runme_xeon64: 28: [: -gt: unexpected operator
+Чт 14 окт 2021 00:32:53 MSK
+Sample data file lininput_xeon64.
+
+Current date/time: Thu Oct 14 00:32:53 2021
+
+CPU frequency:    3.789 GHz
+Number of CPUs: 1
+Number of cores: 4
+Number of threads: 4
+
+Parameters are set to:
+
+Number of tests: 15
+Number of equations to solve (problem size) : 1000  2000  5000  10000 15000 18000 20000 22000 25000 26000 27000 30000 35000 40000 45000
+Leading dimension of array                  : 1000  2000  5008  10000 15000 18008 20016 22008 25000 26000 27000 30000 35000 40000 45000
+Number of trials to run                     : 4     2     2     2     2     2     2     2     2     2     1     1     1     1     1    
+Data alignment value (in Kbytes)            : 4     4     4     4     4     4     4     4     4     4     4     1     1     1     1    
+
+Maximum memory requested that can be used=16200901024, at the size=45000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+1000   1000   4      0.015      44.8857  1.022959e-12 3.033181e-02   pass
+1000   1000   4      0.007      91.1499  1.022959e-12 3.033181e-02   pass
+1000   1000   4      0.013      52.2845  1.022959e-12 3.033181e-02   pass
+1000   1000   4      0.007      95.4560  1.022959e-12 3.033181e-02   pass
+2000   2000   4      0.057      93.8031  5.619838e-12 4.375464e-02   pass
+2000   2000   4      0.058      91.9256  5.619838e-12 4.375464e-02   pass
+5000   5008   4      0.971      85.8681  2.548040e-11 3.392018e-02   pass
+5000   5008   4      0.902      92.4724  2.548040e-11 3.392018e-02   pass
+10000  10000  4      7.641      87.2742  1.054555e-10 3.553909e-02   pass
+10000  10000  4      7.486      89.0839  1.054555e-10 3.553909e-02   pass
+15000  15000  4      26.554     84.7493  2.368669e-10 3.581348e-02   pass
+15000  15000  4      26.296     85.5809  2.368669e-10 3.581348e-02   pass
+18000  18008  4      61.097     63.6470  3.162348e-10 3.349350e-02   pass
+18000  18008  4      47.250     82.2993  3.162348e-10 3.349350e-02   pass
+20000  20016  4      65.744     81.1355  3.807211e-10 3.257923e-02   pass
+20000  20016  4      63.512     83.9861  3.807211e-10 3.257923e-02   pass
+22000  22008  4      81.810     86.7822  4.590843e-10 3.258820e-02   pass
+22000  22008  4      81.623     86.9811  4.590843e-10 3.258820e-02   pass
+25000  25000  4      118.665    87.7930  5.770316e-10 3.184866e-02   pass
+25000  25000  4      117.835    88.4107  5.770316e-10 3.184866e-02   pass
+26000  26000  4      131.786    88.9220  6.257559e-10 3.196386e-02   pass
+26000  26000  4      131.380    89.1970  6.257559e-10 3.196386e-02   pass
+27000  27000  4      147.646    88.8846  5.721172e-10 2.712944e-02   pass
+Killed
+Done: Чт 14 окт 2021 00:52:30 MSK
