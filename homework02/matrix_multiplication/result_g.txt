@@ -1,0 +1,91 @@
+Флаг оптимизации -g
+N = 500 
+runtime 0.395172 seconds
+runtime 0.435024 seconds
+runtime 0.391916 seconds
+runtime 0.381170 seconds
+runtime 0.383076 seconds
+average runtime kij opt 0.397272 seconds
+---------------------------------
+runtime 0.000766 seconds
+runtime 0.000762 seconds
+runtime 0.000754 seconds
+runtime 0.000741 seconds
+runtime 0.000742 seconds
+average runtime matrix vector multiplication 0.000753 seconds
+---------------------------------
+N = 512 
+runtime 0.407307 seconds
+runtime 0.414729 seconds
+runtime 0.409197 seconds
+runtime 0.410402 seconds
+runtime 0.418477 seconds
+average runtime kij opt 0.412022 seconds
+---------------------------------
+runtime 0.000796 seconds
+runtime 0.001090 seconds
+runtime 0.000807 seconds
+runtime 0.000796 seconds
+runtime 0.000772 seconds
+average runtime matrix vector multiplication 0.000852 seconds
+---------------------------------
+N = 1000 
+runtime 3.119185 seconds
+runtime 3.306844 seconds
+runtime 3.103324 seconds
+runtime 3.151398 seconds
+runtime 3.194626 seconds
+average runtime kij opt 3.175075 seconds
+---------------------------------
+runtime 0.003242 seconds
+runtime 0.003301 seconds
+runtime 0.003795 seconds
+runtime 0.003325 seconds
+runtime 0.003311 seconds
+average runtime matrix vector multiplication 0.003395 seconds
+---------------------------------
+N = 1024 
+runtime 3.361563 seconds
+runtime 3.353431 seconds
+runtime 3.321718 seconds
+runtime 3.326712 seconds
+runtime 3.358856 seconds
+average runtime kij opt 3.344456 seconds
+---------------------------------
+runtime 0.003325 seconds
+runtime 0.003484 seconds
+runtime 0.003444 seconds
+runtime 0.003394 seconds
+runtime 0.003469 seconds
+average runtime matrix vector multiplication 0.003423 seconds
+---------------------------------
+N = 2000 
+runtime 25.500094 seconds
+runtime 25.489474 seconds
+runtime 25.727288 seconds
+runtime 25.439828 seconds
+runtime 25.595384 seconds
+average runtime kij opt 25.550414 seconds
+---------------------------------
+runtime 0.012942 seconds
+runtime 0.012953 seconds
+runtime 0.012947 seconds
+runtime 0.013068 seconds
+runtime 0.012969 seconds
+average runtime matrix vector multiplication 0.012976 seconds
+---------------------------------
+N = 2048 
+runtime 27.505164 seconds
+runtime 27.339872 seconds
+runtime 27.648747 seconds
+runtime 27.492255 seconds
+runtime 29.884883 seconds
+average runtime kij opt 27.974184 seconds
+---------------------------------
+runtime 0.015410 seconds
+runtime 0.014437 seconds
+runtime 0.015463 seconds
+runtime 0.014919 seconds
+runtime 0.015919 seconds
+average runtime matrix vector multiplication 0.015230 seconds
+---------------------------------
