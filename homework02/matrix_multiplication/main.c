@@ -10,7 +10,6 @@ int main()
 {
     
     int NRuns = 5;
-   // size_t i, j, k;
     double average_runtime = 0.0;
     double *runtimes;
     double *A, *B, *C, *D;
