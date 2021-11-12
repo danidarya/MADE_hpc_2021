@@ -1,0 +1,6 @@
+message: processor_0 processor_2
+already met: [0]
+message: processor_0 processor_2 processor_1
+already met: [0, 2]
+message: processor_0 processor_2 processor_1 processor_3
+already met: [0, 2, 1]
